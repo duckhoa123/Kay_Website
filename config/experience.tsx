@@ -32,41 +32,52 @@ export const Experiences: {
     },
     roles: [
       <>
-       Spearheaded the design and development of the{' '}<Link
+        Spearheaded the design and development of the{' '}
+        <Link
           aria-label="PTE Master"
           href="https://www.masterpte.com.au/"
           target="_blank"
           rel="noreferrer"
         >
           PTE Master
-        </Link> project, tailored to meet the specific needs of clients in the educational sector.
+        </Link>{' '}
+        project, tailored to meet the specific needs of clients in the
+        educational sector.
       </>,
       <>
-       Participated in the{' '}<Link
+        Participated in the{' '}
+        <Link
           aria-label="Mentem"
           href="https://www.mentem.co/"
           target="_blank"
           rel="noreferrer"
         >
           Mentem
-        </Link> project as a full stack developer, primarily using React.js and .NET, while also delivering extensive user training and support to clients and stakeholders.
+        </Link>{' '}
+        project as a full stack developer, primarily using React.js and .NET,
+        while also delivering extensive user training and support to clients and
+        stakeholders.
       </>,
       <>
-        Assisted in the{' '}<Link
+        Assisted in the{' '}
+        <Link
           aria-label="Carina Eye Care"
           href="https://www.carinaeyecare.com.au/"
           target="_blank"
           rel="noreferrer"
         >
           Carina Eye Care
-        </Link> project as a full stack developer with mainly Next.js, React.js, AWS and provided
-        comprehensive user training and support to clients and stakeholders
-        
+        </Link>{' '}
+        project as a full stack developer with mainly Next.js, React.js, AWS and
+        provided comprehensive user training and support to clients and
+        stakeholders
       </>,
       <>
-     Coordinated the deployment and effectively managed web applications by utilizing a range of AWS services, 
-     including AWS Amplify for seamless front-end automation deployment, along with EC2, CloudFront, and other related tools.  
-    </>
+        Coordinated the deployment and effectively managed web applications by
+        utilizing a range of AWS services, including AWS Amplify for seamless
+        front-end automation deployment, along with EC2, CloudFront, and other
+        related tools.
+      </>,
     ],
   },
   VNNET: {
@@ -82,29 +93,28 @@ export const Experiences: {
     },
     roles: [
       <>
-       Developed websites using Spring Boot to enhance software products aimed at monitoring business tax payments.
+        Developed websites using Spring Boot to enhance software products aimed
+        at monitoring business tax payments.
       </>,
       <>
-        Effectively incorporated REST APIs and web services into web applications to improve functionality and enable data exchange, 
-        which led to a 50% increase in software release cycle speed.
+        Effectively incorporated REST APIs and web services into web
+        applications to improve functionality and enable data exchange, which
+        led to a 50% increase in software release cycle speed.
       </>,
       <>
-       Implemented a custom authentication provider for Spring Security to handle additional authentication checks.
+        Implemented a custom authentication provider for Spring Security to
+        handle additional authentication checks.
       </>,
       <>
-        Performed comprehensive code reviews, offering constructive feedback to colleagues.
+        Performed comprehensive code reviews, offering constructive feedback to
+        colleagues.
       </>,
       <>
-      
-     Enhanced the existing codebase by greatly reducing redundancy and boosting scalability.
+        Enhanced the existing codebase by greatly reducing redundancy and
+        boosting scalability.
       </>,
     ],
   },
- 
 }
 
-export const ExperiencesList = [
-  Experiences.Jung,
-  Experiences.VNNET,
-  
-]
+export const ExperiencesList = [Experiences.Jung, Experiences.VNNET]

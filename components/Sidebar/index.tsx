@@ -110,12 +110,14 @@ const Sidebar = () => {
             variants={fadeInUp}
             maxWidth={{ base: '100%', lg: '80%' }}
           >
-           How nice of you to look at my personal site,
+            How nice of you to look at my personal site,
             <Text variant="emphasis" as="span">
               {' '}
               Thank you!
             </Text>
-            <br />I am a Software Engineer who enjoys designing and learning about systems that allow me to apply my knowledge to create improved solutions for businesses.
+            <br />I am a Software Engineer who enjoys designing and learning
+            about systems that allow me to apply my knowledge to create improved
+            solutions for businesses.
           </MotionText>
           <MotionButton
             size="lg"

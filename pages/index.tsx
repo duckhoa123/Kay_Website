@@ -131,7 +131,7 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
                 paddingX={0}
                 flexDirection={'row'}
               >
-                <EducationSection  />
+                <EducationSection />
               </Box>
             </FadeInLayout>
             <FadeInLayout>
@@ -152,7 +152,5 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
     </>
   )
 }
-
-
 
 export default Portfolio

@@ -3,7 +3,7 @@ import {
   ColorMode,
   ChakraTheme,
   ThemeComponentProps,
-  useColorModeValue
+  useColorModeValue,
 } from '@chakra-ui/react'
 import { mode } from '@chakra-ui/theme-tools'
 
@@ -49,7 +49,7 @@ const textVariants = {
     color: useColorModeValue('teal.500', 'cyan.200'),
   }),
   description: () => ({
-   color: useColorModeValue('gray.800', 'gray.400'),
+    color: useColorModeValue('gray.800', 'gray.400'),
   }),
   accent: () => ({
     color: useColorModeValue('black.400', 'cyan.200'),
@@ -93,7 +93,10 @@ const theme = extendTheme({
         outline: () => ({
           borderColor: useColorModeValue('black.400', 'cyan.200'),
           _hover: {
-            backgroundColor: useColorModeValue('rgba(49, 151, 149, 0.06)','rgba(157, 236, 249, 0.06)'),
+            backgroundColor: useColorModeValue(
+              'rgba(49, 151, 149, 0.06)',
+              'rgba(157, 236, 249, 0.06)'
+            ),
           },
         }),
         outlineAlternative: () => ({
@@ -101,7 +104,10 @@ const theme = extendTheme({
           borderRadius: 0,
           borderColor: useColorModeValue('#595959', 'whiteAlpha.500'),
           _hover: {
-            backgroundColor: useColorModeValue('rgba(49, 151, 149, 0.06)','rgba(157, 236, 249, 0.06)'),
+            backgroundColor: useColorModeValue(
+              'rgba(49, 151, 149, 0.06)',
+              'rgba(157, 236, 249, 0.06)'
+            ),
           },
         }),
       },

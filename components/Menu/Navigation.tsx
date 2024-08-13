@@ -220,7 +220,7 @@ const Navigation = () => {
               Contact
             </Button>
           </Box>
-          
+
           {!isMobile && (
             <Box>
               <IconButton

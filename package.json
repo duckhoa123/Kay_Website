@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --config .prettierrc components/*/*.{ts,tsx} config/*.{ts,tsx} hooks/*.{ts,tsx} pages/*.{ts,tsx} public/*.{ts,tsx} styles/*.{ts,tsx} types/*.{ts,tsx} --write"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.14",
@@ -32,6 +33,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "prettier": "^2.3.2",
-    "typescript": "4.3.5"
+    "typescript": "^4.5.2"
   }
 }
