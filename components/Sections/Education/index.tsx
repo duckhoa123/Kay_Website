@@ -51,6 +51,19 @@ const EducationSection = () => {
             isMobile={isMobile}
           />
         </MotionGridItem>
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={1}
+            title="Vietnam Maritime University"
+            src="/works/VMU_Logo.png"
+            description="Bachelor of Information Technology."
+            duration="Duration: Sep 2018 - Aug 2022 "
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            ctaUrl=""
+            objectPosition="right 20%"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
 
        
       </MotionGrid>
