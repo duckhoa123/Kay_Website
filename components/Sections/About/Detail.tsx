@@ -20,7 +20,7 @@ import {
   SiDocker,
   SiAmazonaws,
   SiGit,
-  SiMongodb
+  SiAngular
 } from 'react-icons/si'
 
 
@@ -80,15 +80,17 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             Node
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiMongodb} color={emphasis} fontSize="2em" />
-            MongoDB
-          </ListItem>
-        </List>
-        <List spacing={3}>
-          <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiPostgresql} color={emphasis} fontSize="2em" />
             PostgreSQL
           </ListItem>
+         
+        </List>
+        <List spacing={3}>
+        <ListItem fontSize="small" display="flex" alignItems="center">
+            <ListIcon as={SiAngular} color={emphasis} fontSize="2em" />
+            Angular
+          </ListItem>
+         
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
             React
