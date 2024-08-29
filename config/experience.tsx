@@ -41,7 +41,7 @@ export const Experiences: {
         >
           PTE Master
         </Link>{' '}
-        project, tailored to meet the specific needs of clients in the
+        project, utilizing .NET, PostgreSQL, and AWS, tailored to meet the specific needs of clients in the
         educational sector.
       </>,
       <>
@@ -54,7 +54,7 @@ export const Experiences: {
         >
           Mentem
         </Link>{' '}
-        project as a full stack developer, primarily using React.js and .NET,
+        project as a full stack developer, primarily using Angular and .NET,
         while also delivering extensive user training and support to clients and
         stakeholders.
       </>,
@@ -68,14 +68,14 @@ export const Experiences: {
         >
           Carina Eye Care
         </Link>{' '}
-        project as a full stack developer with mainly Next.js, React.js, AWS and
+        project as a full stack developer with mainly .NET, React.js, AWS and
         provided comprehensive user training and support to clients and
         stakeholders
       </>,
       <>
         Coordinated the deployment and effectively managed web applications by
         utilizing a range of AWS services, including AWS Amplify for seamless
-        front-end automation deployment, along with EC2, CloudFront, and other
+        front-end automation deployment, along with EC2, and other
         related tools.
       </>,
     ],

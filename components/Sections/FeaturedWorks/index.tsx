@@ -73,7 +73,7 @@ const FeaturedWorksSection = () => {
             idx={3}
             title="Carina Eye Care"
             description="Contributed to a commercial project with the Jung Talents Team 
-            to develop a website tailored for clients in the healthcare sector, focusing specifically on optometry, using Next.js, React.js and AWS."
+            to develop a website tailored for clients in the healthcare sector, focusing specifically on optometry, using ASP.NET Core, React.js and AWS."
             src="/works/Carina_Eye_Care.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.carinaeyecare.com.au/"
