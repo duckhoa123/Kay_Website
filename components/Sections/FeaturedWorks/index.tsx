@@ -31,8 +31,7 @@ const FeaturedWorksSection = () => {
         Some of my works.
       </Heading>
       <Text variant="description">
-        Check out some of the works I made at freelancing, company projects and
-        even case studies.
+        Check out some of the works I completed on various company projects.
       </Text>
 
       <MotionGrid
@@ -47,7 +46,7 @@ const FeaturedWorksSection = () => {
             title="PTE Master"
             src="/works/PTEMaster.png"
             description="Collaborated with the Jung Talents Team on a commercial project 
-            to develop an educational web application aimed at helping users prepare for the PTE Exam, utilizing ASP.NET Core, AWS, and TypeScript."
+            to develop an educational web application aimed at helping users prepare for the PTE Exam, utilizing ASP.NET Core, AWS, and PostgreSQL."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.masterpte.com.au/"
             objectPosition="right 20%"
@@ -72,8 +71,8 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={3}
             title="Carina Eye Care"
-            description="Contributed to a commercial project with the Jung Talents Team 
-            to develop a website tailored for clients in the healthcare sector, focusing specifically on optometry, using ASP.NET Core, React.js and AWS."
+            description="Led a team in a commercial project 
+            to develop a website tailored for clients in the healthcare sector, focusing specifically on optometry, using Storyblok, React.js and AWS."
             src="/works/Carina_Eye_Care.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.carinaeyecare.com.au/"
