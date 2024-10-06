@@ -45,8 +45,7 @@ const FeaturedWorksSection = () => {
             idx={1}
             title="PTE Master"
             src="/works/PTEMaster.png"
-            description="Collaborated with the Jung Talents Team on a commercial project 
-            to develop an educational web application aimed at helping users prepare for the PTE Exam, utilizing ASP.NET Core, AWS, and PostgreSQL."
+            description="Engaged in the process of developing an educational web application aimed at helping users prepare for the PTE Exam, utilizing ASP.NET Web API, Angular, AWS, and PostgreSQL."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.masterpte.com.au/"
             objectPosition="right 20%"
@@ -58,8 +57,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={2}
             title="Mentem"
-            description="Participated in the commercial project with Jung Talents Team to create an education web application 
-            to assist clients' to find the most suitable training course."
+            description="Participated in the process of developing a web application designed to assist clients to track and manage their training course's data."
             src="/works/Mentem.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.mentem.co/"
@@ -72,7 +70,7 @@ const FeaturedWorksSection = () => {
             idx={3}
             title="Carina Eye Care"
             description="Led a team in a commercial project 
-            to develop a website tailored for clients in the healthcare sector, focusing specifically on optometry, using Storyblok, React.js and AWS."
+            to develop a website tailored for client in the healthcare sector, focusing specifically on optometry, using Storyblok, React.js and AWS."
             src="/works/Carina_Eye_Care.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.carinaeyecare.com.au/"
